@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu</title>
+	<script type="text/javascript" src="../vendor/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../vendor/semantic-ui/semantic.min.css">
+</head>
+<body>
+	<section id="sec1">
+		<h1 class="name">Click Restaurant</h1>
+		<div class="w680">
+			<div class="title">
+				Foods
+			</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/lampchop.jpg">
+					<input type="button" id="click1" value="Lamp Chop $30">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/fishsteak.jpg">
+					<input type="button" id="click2" value="Fish Steak $25">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/chickensteak.jpg">
+					<input type="button" id="click3" value="Chicken Steak $20">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/spaghetti.jpg">
+					<input type="button" id="click4" value="Spaghetti $25">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+			<div class="title">
+				Drinks
+			</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/hotcoffee.jpg">
+					<input type="button" id="click5" value="Hot Coffe $8.99">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/hotchoco.jpg">
+					<input type="button" id="click6" value="Hot Choco $8.99">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/hotlatte.jpg">
+					<input type="button" id="click7" value="Hot Latte $8.99">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/hotcappuccino.jpg">
+					<input type="button" id="click8" value="Hot Cappucino $8.99">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/coldcoffee.jpg">
+					<input type="button" id="click9" value="Cold Coffe $10">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/coldchoco.jpg">
+					<input type="button" id="click10" value="Cold Choco $10">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/coldlatte.jpg">
+					<input type="button" id="click11" value="Cold Latte $10">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/coldcappuccino.jpg">
+					<input type="button" id="click12" value="Cold Cappucin $10">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+			<div class="title">
+				Desserts
+			</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/oreoslice.jpg">
+					<input type="button" id="click13" value="OreoSlice $12">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/mangoslice.jpg">
+					<input type="button" id="click14" value="MangoSlice $12">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/greenteaslice.jpg">
+					<input type="button" id="click15" value="GreenteaSlice $12">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+				<div class="img">
+					<img class="ui medium circular image" src="img/miloslice.jpg">
+					<input type="button" id="click16" value="MiloSlice $12">
+					<button class="add button">+</button>
+					<button class="min button">-</button>
+				</div>
+		</div>
+		<div class="w358 right">
+			<div id="l1" class="selected left">
+				Selected List
+				<ol>
+					<li class="list b1">Lamp Chop </li>
+					<li class="list b2">Fish Steak </li>
+					<li class="list b3">Chicken Steak </li>
+					<li class="list b4">Spahetti </li>
+					<li class="list b5">Hot Coffee </li>
+					<li class="list b6">Hot Choco </li>
+					<li class="list b7">Hot Latte </li>
+					<li class="list b8">Hot Cappucino </li>
+					<li class="list b9">Cold Coffee </li>
+					<li class="list b10">Cold Choco </li>
+					<li class="list b11">Cold Latte </li>
+					<li class="list b12">Cold Cappucino </li>
+					<li class="list b13">Oreo-Slice </li>
+					<li class="list b14">Mango-Slice </li>
+					<li class="list b15">GreenTea-Slice </li>
+					<li class="list b16">Milo-Slice </li>
+				</ol>
+			</div>
+			<div id="quantity" class="num left">
+				Qty
+				<ul>
+					<li class="a1"></li>
+					<li class="a2"></li>
+					<li class="a3"></li>
+					<li class="a4"></li>
+					<li class="a5"></li>
+					<li class="a6"></li>
+					<li class="a7"></li>
+					<li class="a8"></li>
+					<li class="a9"></li>
+					<li class="a10"></li>
+					<li class="a11"></li>
+					<li class="a12"></li>
+					<li class="a13"></li>
+					<li class="a14"></li>
+					<li class="a15"></li>
+					<li class="a16"></li>
+				</ul>
+			</div>
+			<div id="cost" class="price right">
+				Price
+				<ul>
+					<li class="pay c1">0</li>
+					<li class="pay c2">0</li>
+					<li class="pay c3">0</li>
+					<li class="pay c4">0</li>
+					<li class="pay c5">0</li>
+					<li class="pay c6">0</li>
+					<li class="pay c7">0</li>
+					<li class="pay c8">0</li>
+					<li class="pay c9">0</li>
+					<li class="pay c10">0</li>
+					<li class="pay c11">0</li>
+					<li class="pay c12">0</li>
+					<li class="pay c13">0</li>
+					<li class="pay c14">0</li>
+					<li class="pay c15">0</li>
+					<li class="pay c16">0</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+			<button class="done">Order-Done</button>
+			<button id="clear" class="right">
+				Clear
+			</button>
+			<div class="total">
+				<p>
+					Total :-
+				</p>
+				<p>
+					include 6% GST(RM)
+				</p>
+				<div class="box"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</section>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
