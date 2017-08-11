@@ -1,0 +1,32 @@
+body{
+	height: 100%;	
+}
+#sec01{
+	background: black;
+	height: 100%;
+}
+.first{
+	color: red;
+	padding: 50px 0 0 40px;
+    font-size: 54px;
+}
+.plot{
+    color: grey;
+    padding: 67px 0 0 45px;
+}
+.video{
+	margin: 10px 0 0 40px;
+}
+.button1{
+	padding:50px 0 0 45px;
+}
+.button2{
+	margin:-37px 0 0 690px;
+}
+.img{
+	margin: -558px 250px 0 0;
+}
+.img img{
+	width: 30%;
+	float: right;
+}

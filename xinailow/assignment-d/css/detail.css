@@ -1,0 +1,34 @@
+.sec01{
+	color: grey;
+	background: black;
+	height: 100%;
+}
+.sec01 i{
+	color: white;
+}
+.icon1{
+	padding: 20px 0 0 150px;
+	font-size: 20px;
+}
+.sec01 table{
+	margin: 50px 0 0 535px;
+}
+.name{
+	font-size: 30px;
+	padding: 100px 0 0 665px;
+}
+.name h1{
+	font-size: 35px;
+}
+.sec02{
+	margin: 45px 0 0 415px;
+}
+.button01{
+	margin: -28px 0 0 25px;
+}
+.button02{
+	margin: 20px 0 0 660px;
+}
+.email{
+	margin: 10px 0 0 0;
+}
