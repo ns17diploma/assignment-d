@@ -1,0 +1,68 @@
+#width01{
+	margin: auto;
+	width: 1100px;
+	height: 1000px; 
+	
+}
+#word1{
+	border: solid 2px #0affff;
+	width: 280px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
+}
+#pic2{
+	width: 400px;
+	margin-top: 50px;
+}
+#word2{
+	font-size: 30px;
+	color: #0affff;
+	width: 600px;
+	float: right;
+	margin-top: 80px;
+}
+#sec1 a{
+	color: #0affff;
+}
+#width02{
+	margin: auto;
+	width: 1200px;
+	height: 1000px; 
+		
+}
+#pic03{
+	width: 600px;
+	height: 400px;
+	margin-left: 70px;	
+	position: relative;
+	bottom: -140px;
+}
+
+#word4{
+	font-size: 30px;
+	color: #0affff;
+	width: 400px;
+	float: left;
+	position: relative;
+	right: -20px;
+
+}
+#word4 a{
+	color: #01ffff;
+}
+#width03{
+	margin: auto;
+	width: 1200px;
+	height: 1000px; 
+}
+#word5{
+	font-size: 30px;
+	color: #0affff;
+	width: 600px;
+	float: right;
+}
+#word5 a{
+	color: #0affff;
+}

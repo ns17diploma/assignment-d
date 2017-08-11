@@ -1,0 +1,25 @@
+#nav01{
+	border: solid 2px #2c333d;
+	background-color: white;
+	width: 160px;
+	position: fixed;
+
+}
+#width01{
+	width: 1100px;
+	margin: auto;
+	height: 1200px;
+}
+#pic1{
+	width: 500px;
+}
+#pic2{
+	width: 500px;
+}
+#nav01 a{
+	text-decoration: none;
+
+}
+#pic3{
+	width: 1000px;
+}
