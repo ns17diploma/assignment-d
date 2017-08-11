@@ -1,0 +1,120 @@
+/***** container *****/
+
+.container{
+	width: 100%;
+	height: 2000px;
+	margin: auto;
+	background-color: black;
+	color: white;
+}
+
+
+/************************/
+
+.title{
+	width: 300px;
+	font-size: 30pt;
+	font-size: 40pt;
+	margin-top: -10px;
+	margin-left: 100px;
+}
+
+.title a{
+	color: white;
+}
+
+.content{
+	text-align: center;
+}
+
+/***** header *********/
+
+.header{
+	margin-top: -40px;
+	margin-left: 460px;
+}
+
+.header p{
+	display: inline;
+	padding-left: 40px;
+	font-size: 17px;
+	
+}
+
+/*******************************/
+
+.header01{
+	width: 100%;
+	height: 200px;
+	margin-top: 70px;
+	padding-top: 35px;
+	background-color: #1F1F1F;
+}
+
+.header01 h1{
+	margin-left: 350px;
+}
+
+.header01 h3{
+	margin-left: 350px;
+}
+
+/*************************/
+
+.img01{
+	margin-top: -300px;
+	margin-bottom: 70px;
+	margin-left: 200px;
+}
+
+/*************************/
+
+.box01{
+	width: 650px;
+	height: 400px;
+	margin-top: 70px;
+	margin-left: 200px;
+	border: 1px solid white;
+}
+
+
+.title01{
+	width: 649px;
+	border: 1px solid white;
+}
+
+.input{
+	width: 150px;
+	height: 23px;
+	margin-left: 20px;
+	margin-top: 17px;
+	border: 1px solid lightgray;
+	background-color: white;
+	color: black;
+
+}
+
+.box02{
+	margin-top: -350px;
+	margin-left: 450px;
+}
+
+.p2{
+	margin-top: 25px;
+}
+
+.p3{
+	margin-top: 20px;
+}
+
+.p4{
+	margin-top: 20px;
+}
+
+.p5{
+	margin-top: 20px;
+}
+
+.p6{
+	margin-top: 23px;
+}
