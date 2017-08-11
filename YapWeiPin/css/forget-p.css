@@ -1,0 +1,13 @@
+#reset-form{
+	margin: auto;
+	padding-left: 100px;
+}
+
+#reset-form th,td{
+	color: white;
+	padding: 5px;
+}
+
+#reset{
+	margin-left: 200px;
+}

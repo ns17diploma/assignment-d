@@ -1,0 +1,41 @@
+.c-t{
+	color: white;
+}
+
+.row{
+	margin: auto;
+	width: 900px;
+}
+
+#t-m{
+	margin-bottom: 50px;
+}
+
+.time{
+	background-color: yellow;
+	border-radius: 15px;
+	color: black;
+	font-size: 20px;
+	margin-left: 20px;
+	padding: 8px 15px;
+}
+
+.b-c-t{
+	background-color: red;
+	border: solid gray;
+	border-radius: 10px;
+	float: right;
+	font-size: 30px;
+	margin-top: 50px;
+	padding: 8px 13px;
+	text-align: center;
+}
+
+.t-selected{
+	background-color: red;
+	border: solid 2px blue;
+}
+
+#b-c{
+	margin-left: 650px;
+}

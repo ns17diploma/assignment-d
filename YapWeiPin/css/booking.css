@@ -1,0 +1,144 @@
+body{
+	background-color: black;
+}
+
+.floated{
+	float: left;
+	margin: 50px;
+}
+
+.floated-left{
+	float: left;
+	margin: 10px 0 0 0;
+}
+
+.clear{
+	clear: both;
+}
+
+#s-d-container{
+	font-size: 20px;
+	margin: auto;
+	margin-top: 20px;
+	width: 500px;
+}
+
+#s-d-container1{
+	margin: auto;
+	width: 550px;
+}
+
+.detail-b-s{
+	border-radius: 5px;
+	height: 30px;
+	margin-left:20px; 
+	width: 80px;
+}
+
+.detail-w{
+	padding: 4px;
+}
+
+#s-booked{
+	background: repeating-linear-gradient(
+	45deg,
+	#606dbc,
+	#606dbc 10px,
+	#465298 10px,
+  	#465298 20px
+	);
+}
+
+#s-available{
+	background-color: red;
+}
+
+#your-seat{
+	background-color: blue;
+}
+
+.select{
+	background-color: purple;
+	border: black;
+	border-radius: 5px;
+	margin-left: 10px;
+	padding: 10px;
+	width: 150px;
+}
+
+#seat-detail{
+	color: white;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+}
+
+#container{
+	margin: auto;
+	width: 900px;
+}
+
+#title{
+	color: red;
+}
+
+#screen{
+	border: solid 3px blue;
+	color: blue;
+	margin-left: 460px;
+	margin-top: 20px;
+	text-align: center;
+	width: 580px;
+}
+
+.seat{
+	border: solid black;
+	border-radius: 7px;
+	padding: 12px 10px;
+	width: 50px;
+}
+
+.l-seat{
+	border: solid black;
+	border-radius: 10px;
+	padding: 20px 60px 20px 50px;
+	width: 60px;
+}
+
+#button-area{
+	margin: auto;
+	margin-bottom: 20px;
+	width: 920px;
+}
+
+.b-b{
+	background-color: darkblue;
+	border: solid darkblue;
+	border-radius: 5px;
+	color: #3a83c4;
+	font-size: 30px;
+	padding: 12px 0;
+	width: 220px;
+}
+
+.seat-c{
+	background-color: red;
+}
+
+.s-t-selected{
+	background-color: white;
+}
+
+.selected{
+	background-color: blue;
+}
+
+.booked{
+	background: repeating-linear-gradient(
+	45deg,
+	#606dbc,
+	#606dbc 10px,
+	#465298 10px,
+  	#465298 20px
+	);
+}

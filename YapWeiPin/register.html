@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Wakaka Cinema</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script type="text/javascript" src="../vendor/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../vendor/semantic-ui/semantic.min.css">
+		<script type="text/javascript" src="../vendor/semantic-ui/semantic.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../vendor/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<a class="navbar-brand" href="#">
+				<img src="imgs/logo.png" />
+			</a>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link f-c" href="index.html">
+							<h3 id="button01" class="f-c">Home</h3>
+							<span class="sr-only">(current)</span>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about-us.html">
+							<h3 id="button02" class="f-c">About Us</h3>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="login.html">
+							<h3 id="button03" class="f-c">Login</h3>
+						</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</nav>
+		<section id="form">
+			<div class="container">
+				<div class="row">
+					<div id="t-r">
+						Register
+					</div>
+					<table>
+						<form>
+							<tr>
+								<th><label for="account">Account name</label></th>
+								<td>
+									<input id="account" type="text" name="account" value="" />
+								</td>
+							</tr>
+							<tr>
+								<th><label for="password">Password</label></th>
+								<td>
+									<input id="password" type="text" name="password" value="" />
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<label for="firstname">First name</label>
+								</th>
+								<td>
+									<input id="firstname" type="text" name="firstname" maxlength="20" value="" />
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<label for="lastname">Last name</label>
+								</th>
+								<td>
+									<input id="lastname" type="text" name="lastname" maxlength="20" value="" />
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<label for="email">Email</label>
+								</th>
+								<td>
+									<input id="email" type="email" name="lastname" maxlength="35" value="" />
+								</td>
+							</tr>
+							<tr>
+								<th>Gender</th>
+								<td>
+									<label>
+										<input id="Male" type="radio" name="gender" value="Male">Male
+									</label>
+									<label>
+										<input id="Female" type="radio" name="gender" value="Female">Female
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<th>Birthday</th>
+								<td>
+									<input type="date" name="birth" max="2005-01-01" min="1918-01-01" />
+								</td>
+							</tr>
+							<tr>
+								<th>
+								   <label for="address">Address</label>
+								</th>
+								<td>
+									<input id="address" type="text" name="address" value="" />
+								</td>
+							</tr>
+							<tr>
+								<th>Country</th>
+								<td>
+									<select name="Country">
+										<option>Country</option>
+										<option value="Africa">Africa</option>
+										<option value="Australia">Australia</option>
+										<option value="Brazil">Brazil</option>
+										<option value="Cambodia">Cambodia</option>
+										<option value="Canada">Canada</option>
+										<option value="China">China</option>
+										<option value="Finland">Finland</option>
+										<option value="France">France</option>
+										<option value="Germany">Germany</option>
+										<option value="Hong Kong">Hong Kong</option>
+										<option value="Iceland">Iceland</option>
+										<option value="India">India</option>
+										<option value="Indonesia">Indonesia</option>
+										<option value="Italy">Italy</option>
+										<option value="Japan">Japan</option>
+										<option value="Korea, North">Korea, North</option>
+										<option value="Korea, South">Korea, South</option>
+										<option value="Macau">Macau</option>
+										<option value="Malaysia">Malaysia</option>
+										<option value="Nepal">Nepal</option>
+										<option value="New Zealand">New Zealand</option>
+										<option value="North Korea">North Korea</option>
+										<option value="Philippines">Philippines</option>
+										<option value="Russia">Russia</option>
+										<option value="Singapore">Singapore</option>
+										<option value="South Africa">South Africa</option>
+										<option value="South Korea">South Korea</option>
+										<option value="Taiwan">Taiwan</option>
+										<option value="Thailand">Thailand</option>
+										<option value="United Kingdom">United Kingdom</option>
+										<option value="Vietnam">Vietnam</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<input type="checkbox">I've read and agrees the <a href="http://www.contractology.com/free-website-terms-and-conditions.html">terms and conditions</a>
+								</td>
+							</tr>
+							<tr>
+								<th>
+									<a href="login.html">
+										<div id="submit" class="b-e-d">
+											Submit
+										</div>
+									</a>
+								</th>
+							</tr>
+						</form>
+					</table>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript" src="js/register.js"></script>
+</html>
