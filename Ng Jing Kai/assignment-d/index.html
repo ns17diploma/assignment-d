@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Air Flight</title>
+	<script src="./../../vendor/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="main">
+		<div id="topleft" class="left">	
+			<img src="imgs/logo.jpg" class="logo" alt="image">
+		</div>
+		<div id="topright" class="right">
+			<select>
+				<option value="country">Malaysia</option>
+			</select>
+			<a href="#">Login</a>  | 
+			<a href="#">Register</a>
+		</div>
+		<div class="clear"></div>
+		
+		<div id="slider" class="left space-top">
+			<ul class="slides">
+				<li class="slide"><img src="imgs/promotion.jpg" class="slideImg" alt="image"></li>
+				<li class="slide"><img src="imgs/enjoy.jpg" class="slideImg" alt="image"></li>
+				<li class="slide"><img src="imgs/wine.jpg" class="slideImg" alt="image"></li>
+				<li class="slide"><img src="imgs/promotion.jpg" class="slideImg" alt="image"></li>
+			</ul>
+		</div>
+		<div id="booking" class="right">
+			<div class="bar left">
+				Origin : <br>
+				<select id="origin">
+					<option value="none" selected="selected">Select your origin</option>
+					<option value="johor">Johor</option>
+					<option value="sabah">Sabah</option>
+					<option value="sarawak">Sarawak</option>
+					<option value="penang">Penang</option>
+					<option value="selangor">Selangor</option>
+					<option value="perak">Perak</option>
+					<option value="malacca">Malacca</option>
+					<option value="kelantan">Kelantan</option>
+					<option value="nsembilan">Negeri Sembilan</option>
+					<option value="terengganu">Terengganu</option>
+					<option value="kedah">Kedah</option>
+					<option value="pahang">Pahang</option>
+					<option value="perlis">Perlis</option>			
+				</select> 
+			</div>
+			<div class="left check1 hide">OK</div>
+
+			<div class="bar left">
+				Destination : <br>
+				<select id="destination">
+					<option value="none" selected="selected">Select your destination</option>
+					<option value="johor">Johor</option>
+					<option value="sabah">Sabah</option>
+					<option value="sarawak">Sarawak</option>
+					<option value="penang">Penang</option>
+					<option value="selangor">Selangor</option>
+					<option value="perak">Perak</option>
+					<option value="malacca">Malacca</option>
+					<option value="kelantan">Kelantan</option>
+					<option value="nsembilan">Negeri Sembilan</option>
+					<option value="terengganu">Terengganu</option>
+					<option value="kedah">Kedah</option>
+					<option value="pahang">Pahang</option>
+					<option value="perlis">Perlis</option>
+				</select> 			
+			</div>
+			<div class="left check2 hide">OK</div>
+
+			<div class="bar left">
+				<div class="halfbar left">
+					Depart date : <br>
+					<input type="date" class="datePicker" placeholder="Depart date">
+				</div>
+
+				<div class="halfbar right">
+					Return date : <br>
+					<input type="date" class="datePicker" placeholder="Depart date">
+				</div>		
+			</div>
+			<div class="left check3 hide">OK</div>
+			<div class="clear"></div>
+			<button id="search" class="search bar">Search</button>
+		</div>
+	</div>
+	<div id="purchase" class="hide">	
+	<div id="allSec" class="left">
+		<table id="left" class="left dark">
+			<tr>
+				<th></th>
+				<th class="seatNum">A</th>
+				<th class="seatNum">B</th>
+			</tr>
+			<tr>
+				<th class="seatNum"><span class="gold">1</span></th>
+				<th class="seat available premium"></th>
+				<th class="seat available premium"></th>
+			</tr>
+			<tr>
+				<th class="seatNum"><span class="gold">2</span></th>
+				<th class="seat available premium"></th>
+				<th class="seat available premium"></th>
+			</tr>
+			<tr>
+				<th class="seatNum"><span class="gold">3</span></th>
+				<th class="seat available premium"></th>
+				<th class="seat available premium"></th>
+			</tr>
+			<tr>
+				<th class="entrance"></th>
+				<th class="entrance">IN</th>
+				<th><img src="imgs/right-arrow.png" class="image" alt="arrow"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">4</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">5</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">6</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">7</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">8</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="exit"></th>
+				<th><img src="imgs/left-arrow.png" class="image" alt="arrow"></th>
+				<th class="exit">OUT</th>
+			</tr>
+			<tr>
+				<th class="seatNum">9</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">10</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">11</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">12</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seatNum">13</th>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+		</table>
+<!--/////////////// Right seat //////////////////-->
+		<table id="right" class="left dark">
+			<tr>
+				<th class="seatNum">C</th>
+				<th class="seatNum">D</th>
+			</tr>
+			<tr>			
+				<th class="seat available premium"></th>
+				<th class="seat available premium"></th>
+			</tr>
+			<tr>				
+				<th class="seat available premium"></th>
+				<th class="seat available premium"></th>
+			</tr>
+			<tr>	
+				<th class="seat available premium"></th>
+				<th class="seat available premium"></th>
+			</tr>
+			<tr>
+				<th class="entrance"></th>
+				<th class="entrance"></th>
+				<th class="entrance"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="exit"></th>
+				<th class="exit"></th>
+				<th class="exit"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+			<tr>
+				<th class="seat available normal"></th>
+				<th class="seat available normal"></th>
+			</tr>
+		</table>
+	</div>
+	<!-- /////////////////////////////////////////////////////// -->
+	<div id="extra" class="left">
+		<div id="priceList" class="dark">
+			<h3>Price List</h3>
+			<table>
+				<tr>
+					<th>Normal Seat :</th>
+					<th>RM 200.00 (per person)</th>
+				</tr>
+				<tr>
+					<th>Business Seat :</th>
+					<th>RM 400.00 (per person)</th>
+				</tr>
+				<tr>
+					<th>Hotel :</th>
+					<th>RM 180.00 (per room)</th>
+				</tr>
+				<tr>
+					<th>Taxi :</th>
+					<th>Depends on where you go</th>
+				</tr>
+				<tr>
+					<th>Meal :</th>
+					<th>RM 50.00 (each person)</th>
+				</tr>
+				<tr>
+					<th>Insurance :</th>
+					<th>RM 25.00 (per person)</th>
+				</tr>
+			</table>
+		</div>
+		<table>
+			<tr>
+				<th id="hotel" class="extra" title="We have the best hotel that is nearest to airport!">
+					<h4>Hotel</h4>
+					<img src="imgs/hotel.png" class="l-image" alt="icon"> <br> <br>
+					<p class="small hide" id="hotelTitle">The number of room you want.</p>
+					<input type="number" class="extraOption num" id="hotelOption" min="0" max="99" >
+				</th>
+				<th id="transport" class="extra" title="Always have the standby transport!">
+					<h4>Transport</h4>
+					<img src="imgs/taxi.png" class="l-image" alt="icon"	> <br><br>
+					<p class="small hide" id="transportTitle">Choose the destination.</p>
+					<input type="text" class="extraOption" id="transportOption" placeholder="Where you want to go?"> 
+				</th>
+			</tr>
+			<tr>
+				<th id="meal" class="extra" title="The BEST flight meal that you'll love it!">
+					<h4>Meal</h4>
+					<img src="imgs/meal.jpg" class="l-image" alt="icon"> <br><br>
+					<p class="small hide" id="mealTitle">The number of meal you want.</p>
+					<input type="number" class="extraOption num" id="mealOption" min="0" max="99">
+				</th>
+				<th id="insurance" class="extra" title="Insurance is not only ">
+					<h4>Insurance</h4>
+					<img src="imgs/insurance.jpg" class="l-image" alt="icon"> <br><br>
+					<p class="small hide" id="insuranceTitle">The number of insurance you want.</p>
+					<input type="number" class="extraOption num" id="insuranceOption" min="0" max="99">
+				</th>
+			</tr>
+		</table>
+	</div>
+
+<!-- //////////////////////////////////////////////////////// -->
+	<div id="total" class="left dark">
+		<div>
+			<ul>
+				<li>
+					<h4>Ticket :</h4>
+					<p id="ticketPrice">0.00</p>
+				</li>
+				<li>
+					----Extra----
+				</li>
+				<li>
+					<h4>Hotel :</h4>
+					<p id="hotelPrice">0.00</p>
+				</li>
+				<li>
+					<h4>Meal :</h4>
+					<p id="mealPrice">0.00</p>
+				</li>
+				<li>
+					<h4>Insurance :</h4>
+					<p id="insurancePrice">0.00</p>
+				</li>
+			</ul>
+		</div>
+		<div id="price">
+			<p><h3>Total price =</h3></p>
+			<p id="totalPrice">0.00</p>
+		</div>
+		<button id="confirmBtn">Purchase NOW!</button>
+		
+	</div>
+	</div>
+
+</body>
+<script src="js/app.js"></script>
+</html>
+
