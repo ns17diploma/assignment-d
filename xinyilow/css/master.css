@@ -1,0 +1,84 @@
+body{
+	background-color: black;
+}
+#sec{
+	border: 1px solid black;
+	margin: auto;
+	background-color: black;
+	height: 760px;
+}
+.div a{
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+}
+.sec01{
+	margin-top: 40px;
+}
+.text1{
+	margin-left: 400px;
+}
+.text2{
+	margin-left: 100px;
+}
+.text{
+	margin-left: 50px;
+	font-size: 30px;
+	color: white;
+}
+.but1{
+	margin-left: 530px;
+	padding: 10px 60px;
+}
+.but2{
+	margin-left: 100px;
+	padding: 10px 40px;
+}
+#sec img{
+	width: 200px;
+	margin-left: 140px;
+	margin-top: 120px;
+}
+.img2{
+	color: white;
+}
+.img3 button{
+	padding: 10px 30px;
+	background-color: black;
+	border: 0;
+	margin-top: 30px;
+	margin-left: 150px;
+}
+.img3 a{
+	text-decoration: none;
+	color: white;
+}
+.font1{
+	margin-left: 40px;
+}
+.font2{
+	margin-left: 30px;
+}
+.font3{
+	margin-left: 50px;
+}
+.button{
+	padding: 10px 30px;
+	background-color: white;
+	border: 0;
+	border-radius: 5px;
+	float: right;
+	margin-right: 150px;
+	margin-top: 50px;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+}
+
+.icon{
+	color: white;
+	margin-left: 800px;
+	margin-top: -20px;
+	letter-spacing: 60px;
+}
