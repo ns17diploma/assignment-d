@@ -1,0 +1,307 @@
+/*///////////////////////////////*/
+/*////////COMMON//////////////*/
+/*////////////////////////////////*/
+body{
+	background:linear-gradient(to top,purple 0%, black 100%);
+	color:white;
+	margin:auto;
+	width: 1200px;
+}
+h1{
+	color: #fef87b;
+}
+.center{
+	text-align: center;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*///////////////////////////////*/
+/*////////SEC00//////////////*/
+/*////////////////////////////////*/
+#sec00{
+	background:linear-gradient(to top,black 10%, black 100%);
+	height: 100%;
+}
+#sec00 h4{
+	color:gold;
+}
+.class{
+	margin: 20px;
+}
+.class1{
+	background: black;
+	color:white;
+}
+.introo{
+	border-radius: 10px;
+	border: solid 1px gold;
+	height: 280px;
+	margin-top: 80px;
+	margin-left: 15px;
+	padding: 15px;
+	white-space: normal;
+	width: 205px;
+}
+.padd{
+	margin-top: 10px;
+}
+.padding{
+	padding-top: 50px;
+}
+.textp{
+	font-size: 30px;
+	padding: 10px;
+}
+/*/////////SEC00-COLOR////////*/
+.blue{
+	border: solid 1px #69f5f5;
+}
+.black{
+	border: solid 1px pink;
+}
+.orange{
+	border: solid 1px orange;
+}
+.purplee{
+	border: solid 1px #9c8bf1;
+}
+.pink{
+	border: solid 1px #ff84ce;
+}
+.yellow{
+	border: solid 1px yellow;
+}
+.white1{
+	border: solid 1px white;
+}
+.white{
+	color:white;
+}
+/*//////SEC00-POSTER//////*/
+.posterr{
+	width: 216px;
+	margin: 10px;
+	margin-top: 50px;
+}
+.posterr1{
+	width: 210px;
+}
+.posterr2{
+	width: 1px;
+}
+.posterr0{
+	height: 332px;
+}
+.posterr4{
+	width: 224px;
+}
+.posterr5{
+	width: 215px;
+}
+.posterr7{
+	width: 221px;
+}
+.posterr8{
+	width: 216px;
+}
+#position{
+	margin-left: 505px;
+}
+.posterall{
+	display: inline-block;
+	margin-top: -20px;
+	margin-left: 6px;
+}
+.posterall2{
+	display: inline-block;
+	margin-top: -50px;
+	margin-left: 6px;
+}
+/*///////////////////////////////*/
+/*////////SEC001//////////////*/
+/*////////////////////////////////*/
+#button1{
+	margin-top: 210px;
+	margin-left: -210px;
+}
+#button2{
+	margin-top: 210px;
+	margin-left: -100px;
+}
+#sec001{
+	background: url(../img/back2.jpg)no-repeat;
+	background-size: 1450px; 
+	height: 100%;
+	padding-top: 100px;
+}
+.abs{
+	position: absolute;
+}
+.border{
+	background: rgba(0,0,0,0.5);
+	border-radius: 100px;
+	border: solid 2px gold;
+	height: 500px;
+	margin: auto;
+	width: 1000px;
+	padding: 30px;
+	position: relative;
+}
+.time{
+	width: 500px;
+	margin-top: 10px;
+}
+.ticket{
+	margin-left: -100px;
+	width: 660px;
+}
+/*///////////////////////////////*/
+/*////////SEC01//////////////*/
+/*////////////////////////////////*/
+#sec01{
+	height: 100%;
+}
+
+.sit{
+	border-radius: 100px;
+	width: 70px;
+	height: 70px;
+	background: black;
+	color:white;
+	margin: 2px;
+}
+.sit1{
+	border-radius: 100px;
+	width: 70px;
+	height: 70px;
+	background: black;
+	color:white;
+	margin: 2px;
+}
+.screen{
+	background:linear-gradient(to left,purple 0%, black 100%);
+	border: solid 1px white;
+	margin-bottom: 20px;
+	width: 1200px;
+}
+.twinsit{
+	width: 148px;
+	height: 60px;
+	background: black;
+	color:white;
+	margin: 2px; 
+}
+.twinsit1{
+	border-radius: 100px;
+	width: 148px;
+	height: 70px;
+	background: black;
+	color:white;
+	margin: 2px; 
+}
+/*/////////SEC01-EXAMPLE/////////*/
+.example{
+	margin: 30px;
+}
+.expsit{
+	background: radial-gradient(transparent 50%, transparent 50%),
+    radial-gradient(transparent 20%, green 50%) 30px 30px;
+    background-size:3px 3px;
+}
+.expsold{
+	background: radial-gradient(transparent 50%, transparent 50%),
+    radial-gradient(transparent 20%, red 50%) 30px 30px;
+    background-size:7px 7px;
+}
+/*//////////BOOKING/BOOKED-BASIC////////*/
+.booking{
+	background: radial-gradient(transparent 50%, transparent 50%),
+    radial-gradient(transparent 20%, green 50%) 30px 30px;
+    background-size:3px 3px;
+}
+.booked{
+	background: radial-gradient(transparent 50%, transparent 50%),
+    radial-gradient(transparent 20%, red 50%) 30px 30px;
+    background-size:7px 7px;
+}
+.grey{
+	background: radial-gradient(transparent 50%, transparent 50%),
+    radial-gradient(transparent 20%,rgba(255,255,255,0.3)  50%) 30px 30px;
+    background-size: 20px 20px;
+}
+/*///////////////////////////////*/
+/*////////SEC02//////////////*/
+/*////////////////////////////////*/
+#sec02{
+	height: 100%;
+}
+#sec02 label{
+	color:white;
+}
+.font{
+	font-size: 15px;
+	font-weight: bolder;
+}
+.field{
+	width: 700px;
+}
+.iconn{
+	width: 40px;
+	margin-left: 485px;
+	margin-top: -50px;
+	position: absolute;
+}
+.iconnn{
+	width: 40px;
+	margin-left: 435px;
+	margin-top: -50px;
+	position: absolute;
+}
+.imgs{
+	transition: all 0.5s ease-in-out;
+	float: right;
+	margin-top: -500px;
+	position: relative;
+	width: 355px;
+}
+.inform{
+	border: solid 2px gold;
+	font-style: italic;
+	height: 50px;
+	text-align: center;
+}
+.layout{
+	margin-top: 25px;
+	margin-left: 200px;
+}
+.term{
+	color:white;
+	text-decoration: underline;
+}
+/*//////ALL-hover/////*/
+.imgs:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.hidden:hover{
+        transform: scale(1.08);
+}
+.sold:hover{
+        transform: scale(1.2);
+}
+.sit:hover{
+        transform: scale(1.3);
+}
+/*////////////////////////*/
+/*////////////////////////*/
+/*////////////////////////*/
+
+
+
+
+
