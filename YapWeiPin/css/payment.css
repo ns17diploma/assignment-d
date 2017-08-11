@@ -1,0 +1,55 @@
+.container-p{
+	background: linear-gradient(to top, black, purple, black);
+	margin: auto;
+	width: 800px;
+	margin-top: 30px;
+}
+
+#ticket-d{
+	color: yellow;
+	font-size: 30px;
+}
+
+#total-ticket{
+	width: 400px;
+	font-size: 23px;
+	margin: auto;
+	margin-top: 20px;
+	color: black;
+	background-color: lightblue;
+	text-align: right;
+}
+
+#total-ticket td{
+	padding-bottom: 10px;
+}
+
+#container-t-t{
+	width: 600px;
+	margin: auto;
+}
+
+.s-container-t-t{
+	width: 280px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.t-box{
+	border: solid lightgreen;
+	color: black;
+	background-color: white;
+	width: 150px;
+	height: 50px;
+}
+
+.t-box4{
+	background-color: red;
+	color: white;
+	padding-left: 10px;
+	width: 150px;
+	height: 50px;
+}

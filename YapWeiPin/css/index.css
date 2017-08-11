@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+}
+
+.floated-left{
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.navbar{
+	background-color: black;
+}
+
+.nav-link{
+	text-align: center;
+	width: 130px;
+}
+
+.f-c{
+	border-radius: 5px;
+	color: white;
+	margin-left: 25px;
+	padding: 5px;
+	text-align: center;
+	width: 130px;
+}
+
+.container{
+	background: linear-gradient(to bottom, black, purple, black);
+	margin: auto;
+	margin-top: 70px;
+	padding: 70px;
+	width: 1400px;
+}
+
+.adjust-img{
+	padding: 8px;
+}
+
+img.width-100{
+	width:100%;
+}
+
+.selected{
+	background: linear-gradient(to right, lightgreen,lightblue);
+}

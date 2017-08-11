@@ -1,0 +1,17 @@
+.bank-c{
+	width: 1000px;
+}
+
+.bank-t{
+	margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+.b-b-b{
+	background-color: red;
+	border: solid red;
+	border-radius: 7px;
+	font-size: 20px;
+	padding: 4px 12px;
+	text-align: center;
+}

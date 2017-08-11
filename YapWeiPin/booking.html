@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Wakaka Cinema</title>
+		<script type="text/javascript" src="../vendor/jquery-3.2.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../vendor/semantic-ui/semantic.min.css">
+		<script type="text/javascript" src="../vendor/semantic-ui/semantic.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/booking.css">
+	</head>
+	<body>
+		<section id="seat-choose">
+			<img src="imgs/logo.png" alt="logo" />
+			<div id="s-d-container">
+				<button id="standard" class="select">Standard</button>
+				<button id="vip" class="select">VIP</button>
+				<button id="sofa" class="select">Sofa</button>
+			</div>
+		</section>
+		<section id="seat-detail">
+			<div id="s-d-container1">
+				<div class="floated-left">
+					<div id="s-booked" class="floated-left detail-b-s"></div>
+					<h3 class="floated-left detail-w">Booked</h3>
+				</div>
+				<div class="floated-left">
+					<div id="s-available" class="floated-left detail-b-s"></div>
+					<h3 class="floated-left detail-w">Available</h3>
+				</div>
+				<div class="floated-left">
+					<div id="your-seat" class="floated-left detail-b-s"></div>
+					<h3 class="floated-left detail-w">Your seat</h3>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</section>
+		<section id="cinema">			
+			<div id="screen">SCREEN</div>
+			<div id="container">
+				<div class="floated">
+					<table>
+						<tr>
+							<th><button id="A1" class="seat seat-c place s-s">A1</button></th>
+							<th><button id="A2" class="seat seat-c place s-s">A2</button></th>
+						</tr>
+						<tr>
+							<th><button id="B1" class="seat seat-c place s-s">B1</button></th>
+							<th><button id="B2" class="seat seat-c place s-s">B2</button></th>
+						</tr>
+						<tr>
+							<th><button id="C1" class="seat seat-c place s-s">C1</button></th>
+							<th><button id="C2" class="seat seat-c place s-s">C2</button></th>
+						</tr>
+						<tr>
+							<th><button id="D1" class="seat seat-c place s-s">D1</button></th>
+							<th><button id="D2" class="seat seat-c place s-s">D2</button></th>
+						</tr>
+						<tr>
+							<th><button id="E1" class="seat seat-c place s-v">E1</button></th>
+							<th><button id="E2" class="seat seat-c place s-v">E2</button></th>
+						</tr>
+						<tr>
+							<th><button id="F1" class="seat seat-c place s-v">F1</button></th>
+							<th><button id="F2" class="seat seat-c place s-v">F2</button></th>
+						</tr>
+						<tr>
+							<th><button id="G1" class="seat seat-c place s-v">G1</button></th>
+							<th><button id="G2" class="seat seat-c place s-v">G2</button></th>
+						</tr>
+						<tr>
+							<th><button id="H1" class="seat seat-c place s-v">H1</button></th>
+							<th><button id="H2" class="seat seat-c place s-v">H2</button></th>
+						</tr>
+						<tr>
+							<th><button id="H3" class="seat seat-c place s-v">I1</button></th>
+							<th><button id="H4" class="seat seat-c place s-v">I2</button></th>
+						</tr>
+						<tr>
+							<th colspan="2"><button id="J1" class="l-seat seat-c place s-sofa">J1</button></th>
+						</tr>
+					</table>
+				</div>
+				<div class="floated">
+					<table>
+						<tr>
+							<th><button id="A3" class="seat seat-c place s-s">A3</button></th>
+							<th><button id="A4" class="seat seat-c place s-s">A4</button></th>
+							<th><button id="A5" class="seat seat-c place s-s">A5</button></th>
+							<th><button id="A6" class="seat seat-c place s-s">A6</button></th>
+							<th><button id="A7" class="seat seat-c place s-s">A7</button></th>
+							<th><button id="A8" class="seat seat-c place s-s">A8</button></th>
+						</tr>
+						<tr>
+							<th><button id="B3" class="seat seat-c place s-s">B3</button></th>
+							<th><button id="B4" class="seat seat-c place s-s">B4</button></th>
+							<th><button id="B5" class="seat seat-c place s-s">B5</button></th>
+							<th><button id="B6" class="seat seat-c place s-s">B6</button></th>
+							<th><button id="B7" class="seat seat-c place s-s">B7</button></th>
+							<th><button id="B8" class="seat seat-c place s-s">B8</button></th>
+						</tr>
+						<tr>
+							<th><button id="C3" class="seat seat-c place s-s">C3</button></th>
+							<th><button id="C4" class="seat seat-c place s-s">C4</button></th>
+							<th><button id="C5" class="seat seat-c place s-s">C5</button></th>
+							<th><button id="C6" class="seat seat-c place s-s">C6</button></th>
+							<th><button id="C7" class="seat seat-c place s-s">C7</button></th>
+							<th><button id="C8" class="seat seat-c place s-s">C8</button></th>
+						</tr>
+						<tr>
+							<th><button id="D3" class="seat seat-c place s-s">D3</button></th>
+							<th><button id="D4" class="seat seat-c place s-s">D4</button></th>
+							<th><button id="D5" class="seat seat-c place s-s">D5</button></th>
+							<th><button id="D6" class="seat seat-c place s-s">D6</button></th>
+							<th><button id="D7" class="seat seat-c place s-s">D7</button></th>
+							<th><button id="D8" class="seat seat-c place s-s">D8</button></th>
+						</tr>
+						<tr>
+							<th><button id="E3" class="seat seat-c place s-v">E3</button></th>
+							<th><button id="E4" class="seat seat-c place s-v">E4</button></th>
+							<th><button id="E5" class="seat seat-c place s-v">E5</button></th>
+							<th><button id="E6" class="seat seat-c place s-v">E6</button></th>
+							<th><button id="E7" class="seat seat-c place s-v">E7</button></th>
+							<th><button id="E8" class="seat seat-c place s-v">E8</button></th>
+						</tr>
+						<tr>
+							<th><button id="F3" class="seat seat-c place s-v">F3</button></th>
+							<th><button id="F4" class="seat seat-c place s-v">F4</button></th>
+							<th><button id="F5" class="seat seat-c place s-v">F5</button></th>
+							<th><button id="F6" class="seat seat-c place s-v">F6</button></th>
+							<th><button id="F7" class="seat seat-c place s-v">F7</button></th>
+							<th><button id="F8" class="seat seat-c place s-v">F8</button></th>
+						</tr>
+						<tr>
+							<th><button id="G3" class="seat seat-c place s-v">G3</button></th>
+							<th><button id="G4" class="seat seat-c place s-v">G4</button></th>
+							<th><button id="G5" class="seat seat-c place s-v">G5</button></th>
+							<th><button id="G6" class="seat seat-c place s-v">G6</button></th>
+							<th><button id="G7" class="seat seat-c place s-v">G7</button></th>
+							<th><button id="G8" class="seat seat-c place s-v">G8</button></th>
+						</tr>
+						<tr>
+							<th><button id="H3" class="seat seat-c place s-v">H3</button></th>
+							<th><button id="H4" class="seat seat-c place s-v">H4</button></th>
+							<th><button id="H5" class="seat seat-c place s-v">H5</button></th>
+							<th><button id="H6" class="seat seat-c place s-v">H6</button></th>
+							<th><button id="H7" class="seat seat-c place s-v">H7</button></th>
+							<th><button id="H8" class="seat seat-c place s-v">H8</button></th>
+						</tr>
+						<tr>
+							<th><button id="I3" class="seat seat-c place s-v">I3</button></th>
+							<th><button id="I4" class="seat seat-c place s-v">I4</button></th>
+							<th><button id="I5" class="seat seat-c place s-v">I5</button></th>
+							<th><button id="I6" class="seat seat-c place s-v">I6</button></th>
+							<th><button id="I7" class="seat seat-c place s-v">I7</button></th>
+							<th><button id="I8" class="seat seat-c place s-v">I8</button></th>
+						</tr>
+						<tr>
+							<th colspan="2"><button id="J2" class="l-seat seat-c place s-sofa">J2</button></th>
+							<th colspan="2"><button id="J3" class="l-seat seat-c place s-sofa">J3</button></th>
+							<th colspan="2"><button id="J4" class="l-seat seat-c place s-sofa">J4</button></th>
+						</tr>
+					</table>
+				</div>
+				<div class="floated">
+					<table>
+						<tr>
+							<th><button id="A9" class="seat seat-c place s-s">A9</button></th>
+							<th><button id="A10" class="seat seat-c place s-s">A10</button></th>
+						</tr>
+						<tr>
+							<th><button id="B9" class="seat seat-c place s-s">B9</button></th>
+							<th><button id="B10" class="seat seat-c place s-s">B10</button></th>
+						</tr>
+						<tr>
+							<th><button id="C9" class="seat seat-c place s-s">C9</button></th>
+							<th><button id="C10" class="seat seat-c place s-s">C10</button></th>
+						</tr>
+						<tr>
+							<th><button id="D9" class="seat seat-c place s-s">D9</button></th>
+							<th><button id="D10" class="seat seat-c place s-s">D10</button></th>
+						</tr>
+						<tr>
+							<th><button id="E9" class="seat seat-c place s-v">E9</button></th>
+							<th><button id="E10" class="seat seat-c place s-v">E10</button></th>
+						</tr>
+						<tr>
+							<th><button id="F9" class="seat seat-c place s-v">F9</button></th>
+							<th><button id="F10" class="seat seat-c place s-v">F10</button></th>
+						</tr>
+						<tr>
+							<th><button id="G9" class="seat seat-c place s-v">G9</button></th>
+							<th><button id="G10" class="seat seat-c place s-v">G10</button></th>
+						</tr>
+						<tr>
+							<th><button id="H9" class="seat seat-c place s-v">H9</button></th>
+							<th><button id="H10" class="seat seat-c place s-v">H10</button></th>
+						</tr>
+						<tr>
+							<th><button id="I9" class="seat seat-c place s-v">I9</button></th>
+							<th><button id="I10" class="seat seat-c place s-v">I10</button></th>
+						</tr>
+						<tr>
+							<th colspan="2"><button id="J5" class="l-seat seat-c place s-sofa">J5</button></th>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div id="button-area">
+				<a href="choose-time.html"><button class="b-b">Back</button></a>
+				<button id="book" class="b-b">Book</button>
+				<button id="clear-select" class="b-b">Clear</button>
+				<a href="c-bank.html"><button id="next" class="b-b">Next</button></a>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript" src="js/booking.js"></script>
+</html>
