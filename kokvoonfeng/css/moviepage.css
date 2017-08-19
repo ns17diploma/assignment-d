@@ -1,10 +1,14 @@
 body{
 	background-color: black;
 }
+p{
+	margin: 0;
+	padding: 0;
+}
 .clear{
 	clear: both;
 }
-.sidebar img{
+.leftlogoimage{
 	width: 260px;
 }
 
@@ -62,19 +66,45 @@ body{
 	margin-left: 70px;
 	padding:10px 10px;
 	width: 80px;
+	height: 80px;
 	border:solid 2px white;
 	border-radius: 50px;
-	height: 80px;
 	background-color: purple;
 }
 .full{
 	text-align: center;
 	background-color: rgba(100,100,100,0.5)
 }
-.full img{
+.box{
+	display: inline-block;
+}
+.kuangfont{
+	border: solid 3px black;
+	border-radius: 40px;
+	width: 300px;
+	height: 440px;
+	margin: auto;
+	background: black;
+	padding-top: 100px;
+}
+.kuangfont h4{
+	color: blue;
+	font-size: 4em;
+}
+.kuangfont p{
+	color: white;
+	font-family: sans-serif;
+	font-size: 3em;
+}
+.star{
+	color: yellow;
+	font-size: 2.5em;
+
+}
+.imagetop{
 	margin: 0px 70px;
-	width: 200px;
-	height: 300px;
+	width: 300px;
+	height: 440px;
 	border-radius: 10px;
 }
 .feng{
@@ -95,7 +125,7 @@ span .icon{
 	font-family: arial black;
 	margin-bottom: 20px;
 	font-size: 3.5em;
-	color: yellow;
+	color: red;
 }
 
 .iconappstore{
@@ -172,4 +202,12 @@ span .icon{
 .movietime{
 	font-size: 3em;
 	margin-top: 50px;
+}
+.button{
+	padding: 5px 10px;
+	margin:30px;
+	font-family: arial black;
+	background-color: black;
+	color:white;
+	border:solid 2px red;
 }

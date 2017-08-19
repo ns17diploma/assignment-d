@@ -10,8 +10,19 @@ $('.seat').on('click',function(){
 		$(this).removeClass('active');
 	}
 })
+
+$('.menu').on('click', function(){
+  	$('.sidebar').sidebar('setting', 'transition', 'overlay','toggle')
+  	.sidebar('toggle');
+});
+
+
 $('.book').on('click',function(){
-	$('.seat').hasClass('active')
-	$('.active').addClass('active02');
-	alert('Thank you')
+	if ($('.seat').hasClass('active')){
+		$('.active').addClass('active02');
+		alert('YOU BOOKED SIT'+" "+ $('.booked').text()+"BUY DONE~THANK YOU");
+	}
+	else{
+	alert('Please select you seat')
+	}
 })
