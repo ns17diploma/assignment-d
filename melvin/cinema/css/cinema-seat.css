@@ -1,0 +1,188 @@
+/**
+*commant 
+**/
+body{
+	background-image: url(./../imgs/background2.jpg);
+	background-size: 100%;
+}
+.border{
+	color: white;
+}
+.text{
+	text-align: center;
+}
+.border2{
+	border: 1px #85C1E9 solid;
+}
+.color1{
+	background-color: green;
+}
+.color2{
+	background-color: white;
+}
+.color3{
+	background-color: red;
+}
+.remove{
+	
+}
+/**
+	*sec01
+**/
+#sec01{
+	width: 100%;
+	height: 100%;
+}
+#table01{
+	background-color: red;
+	font-size:2em; 
+	width: 90%;
+	margin: 20px 10px 25px 70px;
+}
+/**
+*exit
+**/
+#exit{
+	border: 1px solid;
+	background-color: green; 
+}
+/**
+	*choose
+**/
+#choose button{
+	width: 200px;
+}
+.end{
+	width: 200px;
+}
+/**
+	*table02
+**/
+#table02{
+	margin: 120px 10px 10px 100px;
+}
+#table02 td{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+/**
+	*table03
+**/
+#table03 {
+	margin: -144px 10px 10px 100px;
+}
+#table03 td{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+/**
+	*table04
+**/
+#table04 {
+	margin:60px 10px 10px 100px;
+}
+#table04 td{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+}
+/**
+	*table05
+**/
+#table05{
+	margin:-136px 10px 10px 298px;
+}
+#table05 td{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+}
+/**
+	*table06
+**/
+#table06 {
+	margin: -198px 10px 10px 437px;
+}
+#table06 td{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+/**
+	*table07
+**/
+#table07 {
+	margin: -376px 10px 10px 969px;
+}
+#table07 td{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+/**
+*table08
+**/
+#table08 {
+	margin: 60px 10px 10px 969px;
+}
+#table08 td{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+/**
+*table09
+**/
+#table09 {
+	margin: -136px 10px 10px 503px;
+}
+#table09 td{
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+/**
+*table10
+**/
+#table10 {
+	margin: -136px 10px 10px 701px;
+}
+#table10 td{
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+/**
+*table11
+**/
+#table11 {
+	margin: -136px 10px 10px 903px;
+}
+#table11 td{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+}
+/**
+*table12
+**/
+#table12 {
+	margin: -136px 10px 10px 1101px;
+}
+#table12 td{
+	width: 120px;
+	height: 60px;
+	text-align: center;
+}
+/**
+	*button
+**/
+#button{
+	text-align: center;
+}
+#button button{
+	width: 200px;
+	height: 50px;
+}

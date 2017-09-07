@@ -1,0 +1,119 @@
+#box1{
+    background: black;
+    margin: auto;
+    width: 100%;
+    height: 150%;
+}
+.name{
+    color: grey;
+    font-size: 20px;
+    margin: -77px 0 0 30px;
+}
+.box1 table{
+    margin: 110px 0 0 338px;
+}
+.box1 table tr td{
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box2 table{
+    margin: 25px 0 0 338px;
+}
+.box2 table tr td{
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box3 table{
+    margin: -245px 0 0 515px;
+}
+.box3 table tr td{ 
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box4 table{
+    margin: 25px 0 0 515px;
+}
+.box4 table tr td{
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box5 table{
+    margin: -245px 0 0 1025px;
+}
+.box5 table tr td{
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box6 table{
+    margin: 22px 0 0 1025px;
+}
+.box6 table tr td{
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box7{
+    text-align: center;
+    background: red;
+    padding: 30px 0 30px 0;
+    margin: 0px 334px 0 339px;
+    border:  solid 1px black;
+}
+.button01{
+    margin: 40px 0 0 585px;
+}
+.box8 table{
+    margin: 23px 0 0 338px;
+}
+.box8 table tr td{
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box9 table{
+    margin: -74px 0 0 523px;
+}
+.box9 table tr td{ 
+    height: 50%;
+    padding: 1px 0 0 0;
+}
+.box10 table{
+    margin: -73px 0 0 1025px;
+}
+.box10 table tr td{
+    padding: 1px 0 0 0;
+    height: 50%;
+}
+.box11{
+    margin: -370px 0 0 320px;
+    color: white;
+}
+.tb1{
+    margin: 40px 0 0 0px;
+}
+.tb2{
+    margin: 17px 0 0 0px;
+}
+.tb3{
+    margin: 16px 0 0 0px;
+}
+.tb4{
+    margin: 41px 0 0 0px;
+}
+.tb5{
+    margin: 19px 0 0 0px;
+}
+.tb6{
+    margin: 16px 0 0 0px;
+}
+.tb7{
+    margin: 40px 0 0 0px;
+}
+.tb8{
+    margin: 19px 0 0 0px;
+}
+.button02{
+    margin: 22px 0 0 675px;
+}
+.button03{
+    float: right;
+    margin: -38px 328px 0 0;
+}

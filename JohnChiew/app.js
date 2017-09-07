@@ -467,3 +467,4 @@ $('.done').click(function(){
 	alert("Oder have been submited...Thank you");
 	location.reload();
 });
+////////////////////////////////////// Toggle

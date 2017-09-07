@@ -1,0 +1,110 @@
+body{
+	background: url(../images/33.jpg);
+	font-family: georgia;
+}
+td.font{
+	width: 20%;
+	height: 189px;
+	position: relative;
+}	
+img{
+	width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+tr{
+	border:2px solid;
+}
+p{
+	font-size: 5em;
+    font-family: georgia;
+}
+button{
+	float: right;
+	border-radius: 3px;
+	width: 32px;
+	height: 31px;
+}
+
+.bdr2{
+	border:2px solid;
+}
+#container{
+	border:1px solid;
+}
+.fl{
+	float: left;
+	width: 52.5em;
+
+}
+.fr{
+	float: right;
+	width: 20%;
+	height: 119.8em;
+
+}
+.clear{
+	clear: both;
+}
+.font{
+	text-align: center;
+	text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+}
+.fs{
+	position: absolute;
+	top: 0;
+	left:8px;
+	font-size: 1.5em;
+}
+.fs2{
+	font-size: 1.5em;
+	position: absolute;
+	right: 4px;
+	bottom: 4px;
+}
+.section{
+	font-size: 4em;
+	border-radius: 1px;
+}
+td{
+	border: 1.5px solid;
+    border-radius: 12px;
+}
+.transparent {
+	filter: brightness(55%);
+}
+.fl2{
+	float: left;
+    width: 50%;
+    text-align: center;
+    height: 27em;
+    margin-top: 10px;
+}
+.amount{
+	position: absolute;
+	bottom: 94px;
+	left: 63px;
+	border:2px solid blue;
+	border-radius: 5px;	
+	background-color: white;
+	width: 154px;
+    height: 31px;
+	font-size: 24px;
+}
+.display{
+	float: left;
+}
+.w3{
+	display: inline-block;
+    margin-left:95px;
+}
+#conform{
+	float: left;
+    width: 15.6em;
+    margin-top: 15px;
+}
+.title{
+	font-size: 5em;
+    text-align: center;
+    font-style: italic;
+}

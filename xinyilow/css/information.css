@@ -1,0 +1,70 @@
+.text1{
+	margin-left: 400px;
+	color: white;
+}
+.text2{
+	margin-left: 100px;
+	color: white;
+}
+.text{
+	margin-left: 100px;
+	font-size: 30px;
+	color: white;
+}
+.icon{
+	color: white;
+	margin-left: 700px;
+	margin-top: -20px;
+	letter-spacing: 60px;
+}
+.sec01{
+	margin-top: 30px;
+}
+.sec01{
+	color: white;
+	background: black;
+	height: 100%;
+}
+.sec01 i{
+	color: white;
+}
+.icon1{
+	padding: 20px 0 0 150px;
+	font-size: 20px;
+}
+.sec01 table{
+	margin: 50px 0 0 535px;
+}
+.name{
+	margin-top: 100px;
+	margin-left: 550px;
+}
+.name h1{
+	font-size: 35px;
+}
+.sec02{
+	margin: 25px 0 0 550px;
+}
+input{
+	color: white;
+}
+.button1{
+	padding: 10px 30px;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 80px;
+	float: right;
+	margin-right: -200px;
+	background-color:white;
+	color: black;
+}
+.button2{
+	padding: 10px 30px;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 80px;
+	float: right;
+	margin-right: 500px;
+	background-color:white;
+	color: black;
+}
